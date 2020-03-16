@@ -1,0 +1,59 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "http://files.minecraftforge.net/maven"
+        }
+    }
+    dependencies {
+        classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
+    }
+}
+
+repositories {
+    maven {
+        url "https://maven.mcmoddev.com"
+    }
+}
+
+apply plugin: "net.minecraftforge.gradle.forge"
+
+ext.corePlugin = "com.ldshadowlady.monstersandpets.asm.plugin.MnstrPetPlugin"
+ext.modVersion = "1.0.1"
+ext.llibraryVersion = "1.7.9"
+version = "$project.modVersion-1.12"
+group = "com.ldshadowlady.monstersandpets"
+archivesBaseName = "ldshadowlady-monstersandpets"
+
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
+
+minecraft {
+    version = "1.12.2-14.23.2.2615"
+    runDir = "run"
+    mappings = "snapshot_20171003"
+    makeObfSourceJar = false
+    clientJvmArgs = serverJvmArgs = [ "-Dfml.coreMods.load=$project.corePlugin" ]
+}
+
+jar {
+    manifest {
+        attributes "FMLCorePlugin": project.corePlugin
+        attributes "FMLCorePluginContainsFMLMod": "true"
+    }
+}
+
+dependencies {
+    compile "net.ilexiconn:llibrary:$project.llibraryVersion-1.12.2:dev"
+}
+
+processResources {
+    inputs.property "version", project.modVersion
+    inputs.property "mcversion", project.minecraft.version
+    from (sourceSets.main.resources.srcDirs) {
+        include "mcmod.info"
+        expand "version": project.modVersion, "mcversion": project.minecraft.version
+    }
+    from (sourceSets.main.resources.srcDirs) {
+        exclude "mcmod.info"
+    }
+}
