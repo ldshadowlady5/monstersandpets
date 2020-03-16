@@ -1,0 +1,14 @@
+[{
+	"modid": "trollstuff",
+	"name": "Trollstuff",
+	"description": "",
+	"version": "${version}",
+	"mcversion": "${mcversion}",
+	"url": "",
+	"updateUrl": "",
+	"authorList": [ "LDShadowLady" ],
+	"credits": "",
+	"logoFile": "",
+	"screenshots": [],
+	"dependencies": []
+}]
