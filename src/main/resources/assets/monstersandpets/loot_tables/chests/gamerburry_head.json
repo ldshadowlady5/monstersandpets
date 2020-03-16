@@ -1,0 +1,340 @@
+{
+  "pools": [
+    {
+      "name":"main",
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ghast_tear",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:name_tag",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:armor_stand",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lead",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 0
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:strong_harming\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 6,
+                "max": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "sharpness",
+                "looting"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:slime_ball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 11,
+                "max": 19
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cake",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cooked_beef",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "jaff:fish_bucket_clownfish",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "jaff:fish_bucket_cod",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "jaff:fish_bucket_salmon",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "wings:fairy_dust",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "quark:witch_hat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "monstersandpets:pizza",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "monstersandpets:burger",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "monstersandpets:heart_cookie",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "trollstuff:diamond",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "trollstuff:tnt",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "youtuberzombies:fox_hat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "youtuberzombies:walrus_hat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "youtuberzombies:joey_hat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "youtuberzombies:panda_hat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "japaricraftmod:japariman",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "japaricraftmod:japarimancocoa",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "japaricraftmod:japarimanapple",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "japaricraftmod:japarimanfruit",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "japaricraftmod:japaricoin",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "enderzoo:owlegg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "chickendungeons:rainbow_egg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "chickendungeons:robot_egg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "chickendungeons:nether_egg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "chickendungeons:demon_egg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "roost:catcher",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

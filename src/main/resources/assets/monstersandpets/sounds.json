@@ -1,0 +1,197 @@
+{
+  "nether_creature.ambient": {
+    "sounds": [
+      "monstersandpets:entity/nether_creature/ambient"
+    ]
+  },
+  "nether_creature.death": {
+    "sounds": [
+      "monstersandpets:entity/nether_creature/death"
+    ]
+  },
+  "nether_creature.hurt": {
+    "sounds": [
+      "monstersandpets:entity/nether_creature/hurt"
+    ]
+  },
+  "pig_man.ambient": {
+    "sounds": [
+      "monstersandpets:entity/pig_man/ambient"
+    ]
+  },
+  "pig_man.death": {
+    "sounds": [
+      "monstersandpets:entity/pig_man/death"
+    ]
+  },
+  "pig_man.hurt": {
+    "sounds": [
+      "monstersandpets:entity/pig_man/hurt"
+    ]
+  },
+  "slenderman.ambient": {
+    "sounds": [
+      "monstersandpets:entity/slenderman/ambient"
+    ]
+  },
+  "slenderman.death": {
+    "sounds": [
+      "monstersandpets:entity/slenderman/death"
+    ]
+  },
+  "slenderman.hurt": {
+    "sounds": [
+      "monstersandpets:entity/slenderman/hurt"
+    ]
+  },
+  "wendigo.ambient": {
+    "sounds": [
+      "monstersandpets:entity/wendigo/ambient"
+    ]
+  },
+  "wendigo.death": {
+    "sounds": [
+      "monstersandpets:entity/wendigo/death"
+    ]
+  },
+  "wendigo.hurt": {
+    "sounds": [
+      "monstersandpets:entity/wendigo/hurt"
+    ]
+  },
+  "haunted_tree.ambient": {
+    "sounds": [
+      "monstersandpets:entity/haunted_tree/ambient"
+    ]
+  },
+  "haunted_tree.death": {
+    "sounds": [
+      "monstersandpets:entity/haunted_tree/death"
+    ]
+  },
+  "haunted_tree.hurt": {
+    "sounds": [
+      "monstersandpets:entity/haunted_tree/hurt"
+    ]
+  },
+  "no_face.ambient": {
+    "sounds": [
+      "monstersandpets:entity/no_face/ambient"
+    ]
+  },
+  "no_face.death": {
+    "sounds": [
+      "monstersandpets:entity/no_face/death"
+    ]
+  },
+  "no_face.hurt": {
+    "sounds": [
+      "monstersandpets:entity/no_face/hurt"
+    ]
+  },
+  "mystical_goat.ambient": {
+    "sounds": [
+      "monstersandpets:entity/mystical_goat/ambient"
+    ]
+  },
+  "mystical_goat.death": {
+    "sounds": [
+      "monstersandpets:entity/mystical_goat/death"
+    ]
+  },
+  "mystical_goat.hurt": {
+    "sounds": [
+      "monstersandpets:entity/mystical_goat/hurt"
+    ]
+  },
+  "boo.ambient": {
+    "sounds": [
+      "monstersandpets:entity/boo/ambient"
+    ]
+  },
+  "boo.death": {
+    "sounds": [
+      "monstersandpets:entity/boo/death"
+    ]
+  },
+  "boo.hurt": {
+    "sounds": [
+      "monstersandpets:entity/boo/hurt"
+    ]
+  },
+  "goose.ambient": {
+    "sounds": [
+      "monstersandpets:entity/goose/ambient"
+    ]
+  },
+  "goose.death": {
+    "sounds": [
+      "monstersandpets:entity/goose/death"
+    ]
+  },
+  "goose.hurt": {
+    "sounds": [
+      "monstersandpets:entity/goose/hurt"
+    ]
+  },
+  "clown.ambient": {
+    "sounds": [
+      "monstersandpets:entity/clown/ambient"
+    ]
+  },
+  "clown.death": {
+    "sounds": [
+      "monstersandpets:entity/clown/death"
+    ]
+  },
+  "clown.hurt": {
+    "sounds": [
+      "monstersandpets:entity/clown/hurt"
+    ]
+  },
+  "fnaf.death": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/death"
+    ]
+  },
+  "fnaf.hurt": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/hurt"
+    ]
+  },
+  "fnaf.bonnie": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/bonnie"
+    ]
+  },
+  "fnaf.chica": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/chica"
+    ]
+  },
+  "fnaf.foxy": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/foxy"
+    ]
+  },
+  "fnaf.freddy": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/freddy"
+    ]
+  },
+  "fnaf.puppet": {
+    "sounds": [
+      "monstersandpets:entity/fnaf/puppet"
+    ]
+  },
+  "yandere.yandere_chan": {
+    "sounds": [
+      "monstersandpets:entity/yandere/yandere_chan"
+    ]
+  },
+  "yandere.yandere_chainsaw": {
+    "sounds": [
+      "monstersandpets:entity/yandere/yandere_chainsaw"
+    ]
+  }
+}

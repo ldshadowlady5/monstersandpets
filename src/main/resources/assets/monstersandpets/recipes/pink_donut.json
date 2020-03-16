@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "FFF"
+  ],
+  "key": {
+    "I": {
+      "item": "monstersandpets:icing_sugar"
+    },
+    "S": {
+      "item": "monstersandpets:sprinkles"
+    },
+    "F": {
+      "item": "monstersandpets:flour"
+    }
+  },
+  "result": {
+    "item": "monstersandpets:pink_donut"
+  }
+}
